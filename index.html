@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PeriodicTable</title>
+  </head>
+  <style>
+    .head {
+      text-align: center;
+      background-color: #fff95d;
+      color: black;
+      padding: 20px;
+      font-size: 3rem;
+    }
+    td {
+      border: 1px solid black;
+      color: black;
+    }
+    .bd {
+      width: 100%;
+    }
+    td {
+      width: 50px;
+      text-align: center;
+    }
+    .border-none {
+      border: none;
+    }
+    .bg {
+      background-color: #ff9966;
+      color: black;
+    }
+    .bg2 {
+      background-color: #e6e6fa;
+      color: black;
+    }
+    .bg3 {
+      background-color: #dda0dd;
+      color: black;
+    }
+    .bg4 {
+      background-color: #90c7ff;
+      color: black;
+    }
+    .bg5 {
+      background-color: #fff28e;
+      color: black;
+    }
+    .bg6 {
+      background-color: #fff28e;
+      color: black;
+    }
+    .bgpink {
+      background-color: #fceff0;
+      color: black;
+    }
+    .darkpink {
+      background-color: #f96;
+      color: black;
+    }
+    .lightbron {
+      background-color: #ebdca9;
+      color: black;
+    }
+    td:hover {
+      background-color: #9edb9e;
+    }
+    .darkbron {
+      background-color: #c79810;
+      color: black;
+    }
+    .lightgreen {
+      background-color: #cdeb8b;
+      color: black;
+    }
+    .ligtpink{
+      background-color: #fceff0;
+    }
+    #table2 {
+      width: 80%;
+    }
+    .border-none2 {
+      border: none;
+    }
+    td:hover {
+      background-color: #9edb9e;
+    }
+    td {
+      cursor: pointer;
+    }
+  </style>
+
+  <body>
+    <h1 class="head"> The Periodic Table</h1>
+
+    <table class="bd">
+      <tr>
+        <td class="bg">
+          1 <br />
+          H
+        </td>
+        <td colspan="16" class="border-none"></td>
+        <td class="bg2">
+          2 <br />
+          He
+        </td>
+      </tr>
+
+      <tr>
+        <td class="bg3">
+          3 <br />
+          Li
+        </td>
+
+        <td class="bg4">
+          4<br />
+          Be
+        </td>
+
+        <td colspan="10" class="border-none"></td>
+
+        <td class="darkbron">
+          5<br />
+          B
+        </td>
+
+        <td class="darkpink">
+          6 <br />
+          C
+        </td>
+
+        <td class="darkpink">
+          7 <br />
+          N
+        </td>
+
+        <td class="darkpink">
+          8 <br />
+          O
+        </td>
+
+        <td class="lightbron">
+          9 <br />
+          F
+        </td>
+        <td class="bg2">
+          10 <br />
+          Ne
+        </td>
+      </tr>
+      <!-- Second Raw -->
+      <tr>
+        <td class="bg3">
+          11 <br />
+          Na
+        </td>
+
+        <td class="bg4">
+          12<br />
+          Mg
+        </td>
+
+        <td colspan="10" class="border-none"></td>
+
+        <td class="lightgreen">
+          13 <br />
+          AI
+        </td>
+        <td class="darkbron">
+          14<br />
+          Si
+        </td>
+        <td class="darkpink">
+          15<br />
+          p
+        </td>
+        <td class="darkpink">
+          16<br />
+          S
+        </td>
+        <td class="lightbron">
+          17<br />
+          Ci
+        </td>
+        <td class="bg2">
+          18<br />
+          Ar
+        </td>
+      </tr>
+      <!-- Third Raw -->
+
+      <tr>
+        <td class="bg3">
+          19 <br />
+          K
+        </td>
+
+        <td class="bg4">
+          20<br />
+          CA
+        </td>
+
+        <td class="bg5">
+          21<br />
+          SC
+        </td>
+
+        <td class="bg5">
+          22<br />
+          Ti
+        </td>
+
+        <td class="bg5">
+          23<br />
+          v
+        </td>
+
+        <td class="bg5">
+          24<br />
+          Vr
+        </td>
+
+        <td class="bg5">
+          28<br />
+          Mn
+        </td>
+
+        <td class="bg5">
+          26<br />
+          ve
+        </td>
+
+        <td class="bg5">
+          27<br />
+          Co
+        </td>
+
+        <td class="bg5">
+          28<br />
+          Ni
+        </td>
+
+        <td class="bg5">
+          29<br />
+          Cu
+        </td>
+
+        <td class="bg5">
+          30<br />
+          Zn
+        </td>
+
+        <td class="lightgreen">
+          31<br />
+          Ga
+        </td>
+
+        <td class="darkbron">
+          32<br />
+          Ge
+        </td>
+
+        <td class="darkbron">
+          33<br />
+          As
+        </td>
+
+        <td class="darkpink">
+          34<br />
+          Se
+        </td>
+
+        <td class="lightbron">
+          35<br />
+          Br
+        </td>
+
+        <td class="bg2">
+          36<br />
+          Kr
+        </td>
+      </tr>
+
+      <!-- FOUR RAW  -->
+
+      <tr>
+        <td class="bg3">
+          37 <br />
+          Rb
+        </td>
+
+        <td class="bg4">
+          38<br />
+          Sr
+        </td>
+
+        <td class="bg6">
+          39<br />
+          Y
+        </td>
+
+        <td class="bg6">
+          40<br />
+          Zr
+        </td>
+
+        <td class="bg6">
+          41<br />
+          Nb
+        </td>
+
+        <td class="bg6">
+          42<br />
+          Mo
+        </td>
+
+        <td class="bg6">
+          43<br />
+          Tc
+        </td>
+
+        <td class="bg6">
+          44<br />
+          Ru
+        </td>
+
+        <td class="bg6">
+          45<br />
+          Rh
+        </td>
+
+        <td class="bg6">
+          46<br />
+          Pd
+        </td>
+
+        <td class="bg6">
+          47<br />
+          Ag
+        </td>
+
+        <td class="bg6">
+          48<br />
+          Cd
+        </td>
+
+        <td class="lightgreen">
+          49<br />
+          In
+        </td>
+
+        <td class="lightgreen">
+          50<br />
+          Sn
+        </td>
+
+        <td class="darkbron">
+          51<br />
+          Sb
+        </td>
+
+        <td class="darkbron">
+          52<br />
+          Te
+        </td>
+
+        <td class="lightbron">
+          53<br />
+          I
+        </td>
+
+        <td class="bg2">
+          54<br />
+          Xe
+        </td>
+      </tr>
+
+      <!-- Five Raw  -->
+
+      <tr>
+        <td class="bg3">
+          55 <br />
+          CS
+        </td>
+
+        <td class="bg4">
+          56<br />
+          Ba
+        </td>
+
+        <td class="bgpink">57-71<br /></td>
+
+        <td class="bg6">
+          72<br />
+          Hf
+        </td>
+
+        <td class="bg6">
+          73<br />
+          Ta
+        </td>
+
+        <td class="bg6">
+          74<br />
+          W
+        </td>
+
+        <td class="bg6">
+          75<br />
+          Re
+        </td>
+
+        <td class="bg6">
+          76<br />
+          Os
+        </td>
+
+        <td class="bg6">
+          77<br />
+          Ir
+        </td>
+        <td class="bg6">
+          78<br />
+          pt
+        </td>
+
+        <td class="bg6">
+          79<br />
+          Au
+        </td>
+
+        <td class="bg6">
+          80<br />
+          Hg
+        </td>
+        <td class="lightgreen">
+          81<br />
+          Ti
+        </td>
+
+        <td class="lightgreen">
+          82<br />
+          BI
+        </td>
+
+        <td class="lightgreen">
+          83<br />
+          Po
+        </td>
+
+        <td class="darkbron">
+          84<br />
+          AT
+        </td>
+
+        <td class="lightbron">
+          85<br />
+          Rn
+        </td>
+
+        <td class="bg2">
+          86<br />
+          At
+        </td>
+      </tr>
+
+      <!-- SIX RAW  -->
+      <tr>
+        <td class="bg3">
+          87<br />
+          Fr
+        </td>
+
+        <td class="bg4">
+          88<br />
+          Ra
+        </td>
+
+        <td class="bgpink">89-103<br /></td>
+
+        <td class="bg6">
+          104<br />
+          Rf
+        </td>
+
+        <td class="bg6">
+          105<br />
+          Db
+        </td>
+
+        <td class="bg6">
+          106<br />
+          Sg
+        </td>
+
+        <td class="bg6">
+          107<br />
+          Bh
+        </td>
+
+        <td class="bg6">
+          108<br />
+          Hs
+        </td>
+
+        <td class="bg6">
+          109<br />
+          Mt
+        </td>
+
+        <td class="bg6">
+          110<br />
+          Ds
+        </td>
+
+        <td class="bg6">
+          111<br />
+          Rg
+        </td>
+
+        <td class="bg6">
+          112<br />
+          Cn
+        </td>
+
+        <td>
+          113<br />
+          Nh
+        </td>
+
+        <td>
+          114<br />
+          Fi
+        </td>
+
+        <td>
+          115<br />
+          Mc
+        </td>
+
+        <td>
+          116<br />
+          Lv
+        </td>
+
+        <td>
+          117<br />
+          Ts
+        </td>
+
+        <td>
+          118<br />
+          Og
+        </td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <!-- Second TABLE  -->
+    <table id="table2">
+      <tr>
+        <td class="border-none2" colspan="5"></td>
+        <td class="ligtpink">
+          57<br />
+          La
+        </td>
+
+        <td class="ligtpink">
+          58<br />
+          Ca
+        </td>
+
+        <td class="ligtpink">
+          59<br />
+          Pr
+        </td>
+
+        <td class="ligtpink">
+          60<br />
+          Ld
+        </td>
+
+        <td class="ligtpink">
+          61<br />
+          Sm
+        </td>
+
+        <td class="ligtpink">
+          62<br />
+          Pm
+        </td>
+
+        <td class="ligtpink">
+          63<br />
+          Eu
+        </td>
+
+        <td class="ligtpink">
+          64<br />
+          Gd
+        </td class="ligtpink">
+
+        <td class="ligtpink">
+          65<br />
+          Tb
+        </td>
+
+        <td class="ligtpink">
+          66<br />
+          Dy
+        </td>
+
+        <td class="ligtpink">
+          67<br />
+          Ho
+        </td>
+
+        <td class="ligtpink">
+          68<br />
+          Er
+        </td>
+
+        <td class="ligtpink">
+          69<br />
+          Tm
+        </td class="ligtpink">
+
+        <td class="ligtpink">
+          70<br />
+          Yb
+        </td>
+
+        <td class="ligtpink">
+          71<br />
+          Lu
+        </td>
+      </tr>
+
+      <!-- Second Raw  -->
+      <tr>
+        <td class="border-none2" colspan="5"></td>
+        <td class="ligtpink">
+          57<br />
+          La
+        </td>
+
+        <td class="ligtpink">
+          58<br />
+          Ca
+        </td class="ligtpink">
+
+        <td class="ligtpink">
+          59<br />
+          Pr
+        </td>
+
+        <td class="ligtpink">
+          60<br />
+          Ld
+        </td>
+
+        <td class="ligtpink">
+          61<br />
+          Sm
+        </td>
+
+        <td class="ligtpink">
+          62<br />
+          Pm
+        </td>
+
+        <td class="ligtpink">
+          63<br />
+          Eu
+        </td>
+
+        <td class="ligtpink">
+          64<br />
+          Gd
+        </td>
+
+        <td class="ligtpink">
+          65<br />
+          Tb
+        </td>
+
+        <td class="ligtpink">
+          66<br />
+          Dy
+        </td>
+
+        <td class="ligtpink">
+          67<br />
+          Ho
+        </td>
+
+        <td class="ligtpink">
+          68<br />
+          Er
+        </td>
+
+        <td class="ligtpink">
+          69<br />
+          Tm
+        </td>
+
+        <td class="ligtpink">
+          70<br />
+          Yb
+        </td>
+
+        <td class="ligtpink">
+          71<br />
+          Lu
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
